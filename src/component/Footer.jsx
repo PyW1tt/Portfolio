@@ -7,14 +7,14 @@ import call from "../img/call.png";
 function Footer() {
   return (
     <>
-      <section className="font-[Poppins] w-full flex flex-wrap justify-center mt-[168px] ">
-        <div className=" w-[1173px] ">
+      <section className="font-[Poppins] w-full flex flex-wrap justify-center mt-[168px] px-[40px]">
+        <div className=" w-[1173px]">
           <div className=" text-center text-[35px] tracking-widest">
             <span className="text-[#69585f]">Contact</span>
             <span className="font-semibold text-[#472d30]"> Me</span>
           </div>
-          <div className="flex justify-between flex-wrap mt-[59px] text-[35px] text-[#69585f]">
-            <div className="">
+          <div className="flex justify-between flex-wrap mt-[59px] text-[35px] text-[#69585f] max-sm:justify-center">
+            <div className="max-sm:mb-[70px]">
               <div className="hover:translate-y-[-15px]">
                 <a href="http://" className="relative ">
                   <img src={vactor} />
@@ -26,7 +26,7 @@ function Footer() {
               </div>
               <p className="mt-[30px] text-center">Github</p>
             </div>
-            <div>
+            <div className="max-sm:mb-[70px]">
               <div className="hover:translate-y-[-15px]">
                 <a href="http://" className="relative">
                   <img src={vactor} />
@@ -38,7 +38,7 @@ function Footer() {
               </div>
               <p className="mt-[30px] text-center">Instagram</p>
             </div>
-            <div>
+            <div className="max-sm:mb-[70px]">
               <div className="hover:translate-y-[-15px]">
                 <a href="http://" className="relative">
                   <img src={vactor} />
@@ -50,7 +50,7 @@ function Footer() {
               </div>
               <p className="mt-[30px] text-center">Email</p>
             </div>
-            <div>
+            <div className="max-sm:mb-[45px]">
               <div className="hover:translate-y-[-15px]">
                 <a href="http://" className="relative">
                   <img src={vactor} />
@@ -67,7 +67,7 @@ function Footer() {
       </section>
       <div className="flex justify-center relative">
         <img className="w-full" src="./src/img/Vector (3).png" />
-        <p className=" absolute bottom-[40px] text-[35px] tracking-widest text-white">
+        <p className=" absolute bottom-[40px] text-[35px] tracking-widest text-white max-sm:bottom-[0%] max-sm:left-[25%] max-sm:text-[20px]">
           Design By Panaywit
         </p>
       </div>

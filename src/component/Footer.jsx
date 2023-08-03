@@ -3,6 +3,7 @@ import ig from "../img/Instagram.png";
 import git from "../img/github.png";
 import message from "../img/fast message.png";
 import call from "../img/call.png";
+import Vector3 from "../img/Vector (3).png";
 
 function Footer() {
   return (
@@ -66,7 +67,7 @@ function Footer() {
         </div>
       </section>
       <div className="flex justify-center relative">
-        <img className="w-full" src="./src/img/Vector (3).png" />
+        <img className="w-full" src={Vector3} />
         <p className=" absolute bottom-[40px] text-[35px] tracking-widest text-white max-sm:bottom-[0%] max-sm:left-[25%] max-sm:text-[20px]">
           Design By Panaywit
         </p>

@@ -4,19 +4,6 @@ function Header() {
   return (
     <section className="font-[Poppins] box-border p-0 m-0 w-full flex justify-center mt-[97px] h-fit text-[#69585f] px-[30px]">
       <div className="mt-[54px] w-[1173px] flex flex-wrap justify-between max-xl:flex-col-reverse">
-        {/* <div className="w-fit">
-          <div className="tracking-tight mb-[32px]">
-            <span className="text-[35px] max-sm:text-[25px]"> Hi !</span> <br />
-            <span className="text-[50px] max-sm:text-3xl">
-              I’m Panyawit S. <br />a Full-Stack Developer
-            </span>
-          </div>
-          <p className="text-[23px] tracking-tight max-sm:text-sm">
-            Full-Stack devel oper based in Bangkok,Thailand <br />
-            I’am coding with a clean and beautiful problem <br />
-            solving in mind.
-          </p>
-        </div> */}
         <div className="w-[50%] max-lg:w-fit">
           <div>
             <p className="text-[#472d30] text-[25px] font-semibold mb-[10px] max-sm:text-[20px]">

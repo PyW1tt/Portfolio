@@ -49,14 +49,14 @@ function Body() {
               />
               <p className="text-[25px] mb-[10px]">
                 <span className="font-semibold tracking-wider text-[#472d30]">
-                  UI/UX{" "}
+                  UI/UX,{" "}
                 </span>
-                <span className="text-lg tracking-wide text-[#69585f]">
-                  Designer
+                <span className="font-semibold tracking-wider text-[#472d30]">
+                  Database
                 </span>
               </p>
               <p className="text-lg tracking-wide text-[#69585f]">
-                (Figma, Zeplin, Adobe XD)
+                (Figma, Zeplin) (Sql, MongoDB )
               </p>
             </span>
           </div>
